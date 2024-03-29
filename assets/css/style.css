@@ -1,5 +1,10 @@
 @import url(reset.css);
 
+.borda {
+    border: 2px solid #0c0c08;
+}
+
+/* ======================  CONTAINER 1*/
 .container-1 {
     padding: 20px;
     background-image: url(../image/Header-Background.png);
@@ -10,9 +15,9 @@
     font-weight: 400;
     font-style: normal;
     font-size: 32px;
-    color: aliceblue;
+    color: rgb(255, 255, 255);
     margin: 30px 0px 20px 0px;
-    line-height: 1;
+    line-height: 32px;
 }
 
 .container-1 p{
@@ -40,4 +45,60 @@
     border-radius: 28px;
     color: #ffffffb0;
     margin: 15px 0px 20px 0px;
+}
+/* ******************************** FIM CONTAINER 1*/
+/* ======================  CONTAINER 2 e 3*/
+.container-2-3-4 {
+    padding: 20px;
+}
+
+.container-2-3-4 h1 {
+    font-weight: 800;
+    font-size: 24px;
+}
+
+.container-2-3-4 p {
+    margin: 30px 0;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.img-cont-2-3-4 {
+    margin: auto;
+}
+/* ******************************** FIM CONTAINER 2 e 3*/
+/* ======================  CONTAINER */
+.container-5 {
+    padding: 10px;
+}
+
+.container-5 h1{
+    font-family: "Luckiest Guy", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 32px;
+    margin: 30px 0px 20px 0px;
+    line-height: 1;
+}
+
+.container-5 p{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    margin: 20px 0px 20px 0px;
+    line-height: 21px;
+}
+.img-cont-5 {
+    margin: auto;
+}
+/* ******************************** FIM CONTAINER */
+footer {
+    width: auto;
+    height: 160px;
+    background-color: #23272A;
+}
+
+.discord {
+    margin-top: 13%;
+    text-align: center;
 }
